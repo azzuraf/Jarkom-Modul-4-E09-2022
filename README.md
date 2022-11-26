@@ -28,7 +28,6 @@ Selanjutnya menyesuaikan pembagian IP sesuai dengan subnet yang telah dibagi ber
 ![image](https://user-images.githubusercontent.com/54592376/204093217-02ffdeaa-d716-40fa-9a05-06f44c42ffcc.png)
 ![image](https://user-images.githubusercontent.com/54592376/204093248-5370f381-0de1-42c6-b881-4e3f4218e049.png)
 
-
 ## CIDR Menggunakan GNS3
 ### Pembagian Subnet
 ![image](https://user-images.githubusercontent.com/52819640/204092727-9cf78359-fd09-4ba6-a13e-12a5fdb7ab03.png)
