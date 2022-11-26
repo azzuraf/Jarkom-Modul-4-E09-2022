@@ -4,6 +4,31 @@
 1. Azzura Ferliani Ramadhani (5025201190)
 2. Ingwer Ludwig Nommensen (5025201259)
 
+## VLSM Menggunakan CPT
+### Pembagian Subnet
+
+![Screenshot 2022-11-26 at 21 10 39](https://user-images.githubusercontent.com/54592376/204093023-5ce392f2-a035-41cf-afea-12c5ac613215.jpg)
+
+### Penentuan Jumlah Alamat IP
+Menentukan jumlah alamat IP yang dibutuhkan oleh tiap subnet dan melabel netmask berdasarkan jumlah IP yang dibutuhkan.
+
+![image](https://user-images.githubusercontent.com/54592376/204093086-f3c4e9e2-f0ab-4981-b1df-6a86d8a34300.png)
+
+
+### Pembentukan Pohon IP
+Subnet besar yang dibentuk memiliki NID 10.26.0.0 dengan netmask /20 sehingga pembagian IP berdasarkan NID dan netmask dihitung sesuai dengan pohon berikut.
+
+![image](https://user-images.githubusercontent.com/54592376/204093190-5e4637d1-0793-454f-a845-6b5f95af233b.png)
+
+### Link Untuk Subnetting Tree
+https://docs.google.com/spreadsheets/d/1bWAXPEen_DKGcyY5cPj9wx_7p0HTvHXv--l4YTv-AGs/edit?usp=sharing
+
+### Subnet + IP
+Selanjutnya menyesuaikan pembagian IP sesuai dengan subnet yang telah dibagi berdasarkan pohon diatas pada topologi. Setelah itu akan didapatkan pembagian IP untuk tiap nodenya.
+![image](https://user-images.githubusercontent.com/54592376/204093217-02ffdeaa-d716-40fa-9a05-06f44c42ffcc.png)
+![image](https://user-images.githubusercontent.com/54592376/204093248-5370f381-0de1-42c6-b881-4e3f4218e049.png)
+
+
 ## CIDR Menggunakan GNS3
 ### Pembagian Subnet
 ![image](https://user-images.githubusercontent.com/52819640/204092727-9cf78359-fd09-4ba6-a13e-12a5fdb7ab03.png)
