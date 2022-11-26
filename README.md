@@ -19,7 +19,7 @@
 ### CIDR Tree
 ![CIDR Tree drawio](https://user-images.githubusercontent.com/52819640/204092973-74cfb0d4-f588-4f7e-b9ec-b1581390f86d.png)
 ### Network Configuration
-The Resonance
+#### The Resonance
 ```
 auto lo
 iface lo inet loopback
@@ -44,7 +44,7 @@ iface eth4 inet static
         address 10.26.32.1
         netmask 255.255.255.252
 ```
-The Beast
+#### The Beast
 ```
 auto eth0
 iface eth0 inet static
@@ -52,7 +52,7 @@ iface eth0 inet static
         netmask 255.255.255.252
         gateway 10.26.132.1
 ```
-The Magical
+#### The Magical
 ```
 auto lo
 iface lo inet loopback
@@ -68,7 +68,7 @@ iface eth1 inet static
         address 10.26.128.1
         netmask 255.255.254.0
 ```
-The Instrument
+#### The Instrument
 ```
 auto lo
 iface lo inet loopback
@@ -94,7 +94,7 @@ iface eth3 inet static
         address 10.26.72.0
         netmask 255.255.255.128
 ```
-The Order 
+#### The Order 
 ```
 auto lo
 iface lo inet loopback
@@ -115,7 +115,7 @@ iface eth2 inet static
         address 10.26.8.1
         netmask 255.255.255.252
 ```
-Haines
+#### Haines
 ```
 auto eth0
 iface eth0 inet static
@@ -123,7 +123,7 @@ iface eth0 inet static
        netmask 255.255.254.0
        gateway 10.26.128.1
 ```
-Corvekt
+#### Corvekt
 ```
 auto eth0
 iface eth0 inet static
@@ -131,7 +131,7 @@ iface eth0 inet static
       netmask 255.255.254.0
       gateway 10.26.128.1
 ```
-The Profound
+#### The Profound
 ```
 auto lo
 iface lo inet loopback
@@ -152,7 +152,7 @@ iface eth1 inet static
       address 10.26.80.1
       netmask 255.255.255.128
 ```
-The Firefist
+#### The Firefist
 ```
 auto lo
 iface lo inet loopback
@@ -173,7 +173,7 @@ iface eth2 inet static
       address 10.26.64.1
       netmask 255.255.255.0
 ```
-The Order
+#### The Order
 ```
 auto lo
 iface lo inet loopback
@@ -194,7 +194,7 @@ iface eth2 inet static
         address 10.26.8.1
         netmask 255.255.255.252
 ```
-Ashof
+#### Ashof
 ```
 auto eth0
 iface eth0 inet static
@@ -202,7 +202,7 @@ iface eth0 inet static
        netmask 255.255.255.192
        gateway 10.26.16.1
 ```
-The Minister
+#### The Minister
 ```
 auto lo
 iface lo inet loopback
@@ -223,7 +223,7 @@ iface eth2 inet static
         address 10.26.4.1
         netmask 255.255.252.0
 ```
-The Dauntless
+#### The Dauntless
 ```
 auto lo
 iface lo inet loopback
@@ -239,7 +239,7 @@ iface eth1 inet static
         address 10.26.0.1
         netmask 255.255.255.0
 ```
-Spendrow
+#### Spendrow
 ```
 auto eth0
 iface eth0 inet static
@@ -247,7 +247,7 @@ iface eth0 inet static
         netmask 255.255.255.128
         gateway 10.26.80.129
 ```
-Helga
+#### Helga
 ```
 auto eth0
 iface eth0 inet static
@@ -255,7 +255,7 @@ iface eth0 inet static
         netmask 255.255.255.128
         gateway 10.26.80.2
 ```
-Oakleave
+#### Oakleave
 ```
 auto eth0
 iface eth0 inet static
@@ -263,7 +263,7 @@ iface eth0 inet static
         netmask 255.254.0.0
         gateway 10.26.66.1
 ```
-Keith
+#### Keith
 ```
 auto eth0
 iface eth0 inet static
@@ -271,7 +271,7 @@ iface eth0 inet static
        netmask 255.255.255.0
        gateway 10.26.64.1
 ```
-The Queen
+#### The Queen
 ```
 auto lo
 iface lo inet loopback
@@ -287,7 +287,7 @@ iface eth1 inet static
         address 10.26.65.1
         netmask 255.255.255.252
 ```
-The Witch
+#### The Witch
 ```
 auto eth0
 iface eth0 inet static
@@ -295,7 +295,7 @@ iface eth0 inet static
         netmask 255.255.255.252
         gateway 10.26.65.1
 ```
-Phanora
+#### Phanora
 ```
 auto eth0
 iface eth0 inet static
@@ -303,7 +303,7 @@ iface eth0 inet static
        netmask 255.255.254.0
        gateway 10.26.0.1
 ```
-Johan
+#### Johan
 ```
 auto eth0
 iface eth0 inet static
@@ -311,7 +311,7 @@ iface eth0 inet static
        netmask 255.255.254.0
        gateway 10.26.0.1
 ```
-Guideau
+#### Guideau
 ```
 auto eth0
 iface eth0 inet static
@@ -320,17 +320,27 @@ iface eth0 inet static
        gateway 10.26.4.1
 ```
 ### Routing CIDR
-The Profound
-``` route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.26.81.1 ```
+#### The Profound
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.26.81.1
+```
 
-The Queen
-``` route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.26.64.1 ```
+#### The Queen
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.26.64.1
+```
 
-The Magical
-``` route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.26.130.1 ```
+#### The Magical
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.26.130.1
+```
 
-The Dauntless
-``` route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.26.1.1 ```
+#### The Dauntless
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.26.1.1
+```
 
-The Firefist
-``` route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.26.68.1 ```
+#### The Firefist
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.26.68.1
+```
